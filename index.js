@@ -12,6 +12,9 @@
 // console.log(card);
 
 
-const texto = document.querySelector(".destaque > p");
- texto.texContent = "HACKEANDO";
+// const texto = document.querySelector(".destaque > p");
+//  texto.texContent = "HACKEANDO";
 
+
+document.querySelectorAll("button[disable]")
+botoes.forEach(btn => { btn.removeAttribute("dsiabled"); })
