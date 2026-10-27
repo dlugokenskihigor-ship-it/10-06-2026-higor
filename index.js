@@ -12,6 +12,6 @@
 // console.log(card);
 
 
-const imagens = document.getElementsByTagName("img");
+const texto = document.querySelector(".destaque > p");
+ texto.texContent = "HACKEANDO";
 
-console.log(`temos ${imagens.length} img`);
