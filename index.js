@@ -6,6 +6,12 @@
 // });
 // console.log(btn-Login);
 
-const cards = document.getElementByIdByClassName("card");
-cards [0].style.background = "red";
-console.log(card);
+// const cards = document.getElementByIdByClassName("card");
+//  btnLogin. addEventListener ("click",  () => {divAzul.style.backgroundColor = 'green'})
+// cards [0].style.background = "red";
+// console.log(card);
+
+
+const imagens = document.getElementsByTagName("img");
+
+console.log(`temos ${imagens.length} img`);
