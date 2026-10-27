@@ -7,5 +7,5 @@
 // console.log(btn-Login);
 
 const cards = document.getElementByIdByClassName("card");
-cards [1].style.background = "red";
+cards [0].style.background = "red";
 console.log(card);
